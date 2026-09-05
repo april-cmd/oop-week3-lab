@@ -14,6 +14,17 @@ public class MemoryDemo {
         BankAccount acc2 = acc1;
         acc2.balance = 500;
 
+        BankAccount acc3 = null;
+        if (acc3 != null) {
+
+        System.out.println(acc3.balance);
+
+        } 
+
+        else {
+        System.out.println("Account not found");
+        }
+
         System.out.println("acc1: " + acc1.balance);
         System.out.println("acc2: " + acc2.balance);
 
